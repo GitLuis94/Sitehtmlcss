@@ -1,0 +1,63 @@
+nav {
+    background-color: rgb(228, 185, 185); /*Cor de fundo do menu*/
+    display: flex;
+    justify-content: space-evenly;
+     
+} 
+
+ul {
+    list-style-type: none; /*Remove os marcadores de lista*/
+    margin: 0;
+    padding: 0;
+    overflow: hideen; /*para lidar com elementos flutuantes*/
+}
+
+li {
+    float: left; /*Faz com que os itens do menu fiquem em linha*/
+}
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 20px; /* Espaçamento interno dos itens do menu*/
+    text-decoration: none;
+    font-size: 35px;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+h1 { 
+    background: rgb(204, 114, 114);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background-color: blue;
+}
+
+
+
+h3 {
+    text-align: center;
+    background-color: blue;
+}
+
+
+body * {
+    border: solid red 2px;
+}
+
+.sec_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table_1 {
+    display: flex;
+    justify-content: center;
+}
